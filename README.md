@@ -12,11 +12,17 @@ USAGE:
 input_file:        file containing DNA sequences in FASTA format
 
 OPTIONS:
+
 -w       :       motif width(default=10)
+
 -n        :      maximum number of motifs to find(default=5)
+
 -SSD      :      upper bound of SSD (sum of squared distance, please select 0<SSD<1, default=0.3)
+
 -b 2       :     if examine sites on both of DNA strands(default=1 only forward)
+
 -d         :     upper bound of graph density(default=100)
+
 -s 0       :     if want more degenerate sites (default=1 if want fewer sites)
 
 *******
